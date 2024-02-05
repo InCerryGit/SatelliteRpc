@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package ServerProto;
+
+message LoginReqProto
+{
+  string user = 1;
+  string password = 2;
+  optional int32  Sn = 6;//请求标识
+}
+
+message LoginRespProto
+{
+  bool isOk = 1;
+  optional string errMsg = 2;
+  optional int32  Sn = 4;//请求标识
+}

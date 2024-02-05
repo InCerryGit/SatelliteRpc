@@ -1,0 +1,9 @@
+<Project>
+	<PropertyGroup>
+		<NoWarn>NU1803;CS1591;CS0108;</NoWarn>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<InternalsVisibleTo Include="$(AssemblyName).Tests" />
+	</ItemGroup >
+</Project>
